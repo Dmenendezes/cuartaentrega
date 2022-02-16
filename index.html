@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clase 04 - Formularios</title>
+</head>
+<body>
+    <h1>Clase 04 - Formularios</h1>
+    <form>
+        Email: <input type="text" id="email" name="email" size="30" value="usuario@dominio.com">
+        <br><br>
+        Password: <input type="password" id="clave" name="clave" size="20">
+        <br><br>
+        <input type="checkbox" name="condiciones" id="condiciones">
+        Esta de acuerdo con las condiciones explicadas mas arriba.
+        <br><br>
+        <input type="checkbox" name="lenguaje" value="html">HTML
+        <input type="checkbox" name="lenguaje" value="JavaScript">JavaScript
+        <input type="checkbox" name="lenguaje" value="CSS">CSS
+        <input type="checkbox" name="lenguaje" value="XML">XML
+        <br><br>
+        <input type="radio" id="menos18" value="menos18" name="edad">Menos de 18
+        <input type="radio" id="18a30" value="18a30" name="edad">18 a 30
+        <input type="radio" id="31a50" value="31a50" name="edad">31 a 50
+        <input type="radio" id="mas50" value="mas50" name="edad">Mas de 50
+        <br><br>
+        <textarea name="comentario" id="comentarios" cols="100" rows="20"></textarea>
+        <br><br>
+        <select name="equipos" id="equipos">
+            <option selected="selected">Arsenal</option>
+            <option >Chelsea</option>
+            <option >Everton</option>
+            <option >Liverpool</option>
+            <option >Manchester United</option>
+        </select>
+        <br><br>
+        <select name="ciudad" id="ciudad">
+            <optgroup label="Europa">
+                <option>Madrid</option>
+                <option>Londres</option>
+                <option>Paris</option>
+            </optgroup>
+            <optgroup label="America">
+                <option>San Salvador</option>
+                <option>Sao Paulo</option>
+                <option>Lima</option>
+            </optgroup>
+            <optgroup label="Africa">
+                <option>Casa Blanca</option>
+                <option>Nigeria</option>
+                <option>Ciudad del Cabo</option>
+            </optgroup>
+        </select>
+    </form>
+</body>
+</html>
